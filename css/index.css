@@ -1,0 +1,222 @@
+/* ------------头部------------ */
+
+/* ------快捷导航栏------ */
+.navi {
+  display: flex;
+  justify-content: space-between;
+  background-color:lightgray;
+  height: 280px;
+  weight: 1000px;
+}
+.logo {
+  width: 160px;
+  height: 140px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.navi .left h2{
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: #9d9d9d;
+}
+.right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30%;
+  margin-top: 180px;
+  padding-right: 20px;
+  background-color: #f1cbd0;
+}
+.container {
+  width: 100px !important;
+  margin: 10px 20px;
+  padding-left: 20px;
+}
+/*快捷导航栏*/
+
+/* -------------- 网页主体 -------------- */
+/*顾问式人力资源综合服务商,成就优秀人才的未来*/
+.introduce{
+  height: 100px;
+  width: 100%;
+  /*margin: 15px 15px;*/
+}
+.introduce .shang{
+  background-color: lightgray;
+}
+.introduce .shang h2{
+  text-align: center;
+  color: #5e5e5e;
+}
+
+/* ----- 轮播图 ----- */
+.swiper {
+  width: 900px;
+  height: 600px;
+  margin-top:20px ;
+  margin: 100px auto;
+}
+.swiper img {
+  width: 100%;
+  height: 600px!important;
+}
+
+.middle h2{
+  text-align: center;
+  height: 100px;
+  color: #5e5e5e;
+  background-color: lightgray;
+  padding-top: 30px;
+}
+.middle .aboutMice .describe{
+  font-size: 20px;
+  color: #9d9d9d;
+  background-color: rgba(135, 206, 250, 0.26);
+}
+.middle .aboutMice .describe h3{
+  font-size: 30px;
+  color: #5e5e5e;
+  font-weight: bolder;
+}
+
+/*-----专业顾问------*/
+.consultant{
+  height: 80px;
+  width: 100%;
+  background-color: lightgray;
+}
+.consultant h2{
+  text-align: center;
+  color: #5e5e5e;
+  padding-top: 35px;
+}
+
+/*-----联系我们------*/
+.contact{
+  height: 80px;
+  width: 100%;
+  background-color: lightgray;
+}
+.contact h2{
+  text-align: center;
+  color: #5e5e5e;
+  padding-top: 25px;
+}
+
+
+.xia {
+  display: flex;
+  justify-content: center;  
+  /* flex弹性布局，主轴水平居中 */
+  height: 300px;
+  margin-top: 25px ;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.xia .gsjj{
+  width:  45%;
+  background-color: skyblue;
+  margin-right: 15%;
+}
+.xia .gsjj img{
+   height: 100%;
+   width: 100%;
+ }
+.xia .count{
+  width:  45%;
+  background-color: deepskyblue;
+  margin-left: 15%;
+}
+.xia .count img{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+/* -------------- 服务行业 -------------- */
+.service_title{
+  height: 300px;
+}
+.service_title h3{
+  text-align: center;
+}
+.service {
+  /* 弹性盒子 */
+  display: flex;
+  /* 设置子元素换行 */
+  flex-wrap: wrap;
+  height: 400px;
+  margin: 20px;
+}
+.service .dev {
+  /* 100÷6=16.66666%，一行放6个盒子 */
+  width: 16.666666%;
+  box-sizing: border-box;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.service img {
+  width: 66px;
+  height: 66px;
+}
+.service p{
+  margin-top: 10px;
+  color: #9d9d9d;
+}
+
+
+  /* -------------- 网页底部 -------------- */
+footer {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  display: flex;
+  height: 300px;
+  background-color: #333;
+  padding: 20px 120px;
+}
+footer .Last{
+  padding: 20px;
+}
+footer .top{
+  width: 50%;
+  /*background-color: pink;*/
+}
+footer span{
+  padding: 0 10px;
+}
+footer .top h3{
+  color: #fff;
+  font-weight: 200;
+  margin: 20px 0;
+}
+footer .top p{
+  font-size: 14px;
+  font-weight: 200;
+  color: #a9a9a9;
+  margin: 0 0 10px;
+}
+footer .top a{
+  color: #337AB7;
+}
+footer .bottom {
+  display: flex;
+}
+/*footer .qqQRCode{*/
+/*  margin-right: 20px;*/
+/*  width: 25%;*/
+/*  float: right ;*/
+/*}*/
+/*footer .bottom.weChatQRCode{*/
+/*  margin-right: 20px;*/
+/*  margin-bottom: 20px;*/
+/*  width: 25%;*/
+/*  float: right;*/
+/*}*/
+
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font: 16px/1.5 'Microsoft YaHei','Heiti SC',tahoma,arial,'Hiragino Sans GB',sans-serif;
+    color: #666;
+    background-color: white;
+}
+ol,
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+input{
+    border: 0;
+    outline: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+
